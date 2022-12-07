@@ -1,0 +1,269 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    color: #242F9B;
+}
+header{
+    background-image: url(kucing\putih.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position:center ;
+}
+ul{
+    float: right;
+    margin-top: 35px;
+}
+ul li{
+    display:inline-block ; 
+}
+ul li a{
+    text-decoration:none;
+    color: white;
+    padding: 5px 20px;
+    border: 3px solid #DCD6F7;
+    border-radius: 15px;
+    transition: 0.5%;
+    margin: 8px;
+    font-size: 10px;
+    font-weight: bold;
+}
+ul li a:hover{
+    background-color:#293B5F;
+    color:#F4EEFF;
+}ul li.active a{
+   background-color: #293B5F;
+    color:#F4EEFF;
+}
+.navbar{
+    max-width: 1200px;
+    margin: auto;
+}
+.contents{
+   position: absolute;
+   top: 35%;
+   left: 20%;
+   align-self: center; 
+   justify-content: center;
+   
+}
+.contents h1{
+    text-align: center;
+    margin-right: 50px;
+    color: #242F9B;
+    font-size: 65px;
+    text-shadow:-2px 2px 4px #DCD6F7;
+}
+.color{
+    color:#DCD6F7;
+    text-shadow:-4px 4px 4px #242F9B ;
+}
+.contents p{
+    margin: 18px;
+    margin-right: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left:27%;
+    margin-top: 60px;
+    font-weight: bold;
+
+}
+.btn{
+    border: 2px solid white;
+    padding: 10px 30px;
+    color: #424874;
+    text-decoration: none;
+    transition: 0.5s ease;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: #DCD6F7;
+    margin-left: 120px;
+}
+.btn:hover{
+    background-color: #293B5F;
+    color: #DCD6F7;
+}
+
+main section{
+    margin:20px 10% 20px 10%;
+    display:grid;
+    grid-template:repeat(2,1fr)/repeat(3,1fr);
+    grid-column-gap:10px;
+    justify-items:center;
+}
+.project-title{
+    margin-bottom:40px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.project-title img{
+    width: 250px;
+}
+
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 1px;
+    color:#424874 ;
+    width: 100%;
+    line-height: 50px;
+
+}
+
+.about {
+    margin-top: 35px;
+    float: right;
+    width: 275px;
+}
+
+.profile-me{
+    border-radius: 8px;
+}
+.about .profile{
+    padding: 25px;
+    margin: 0 0 25px;
+    background: #424874;
+    border-bottom: 2px solid #424874;
+    transition: all 0.5s ease;
+    border-radius: 15px;
+    border: 3px solid #DCD6F7;
+}
+.about .profile h2{
+    padding: 0;
+    margin: 0 0 15px;
+    color: #DCD6F7;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.about .profile p{
+    font-size: 14px;
+    color: #DCD6F7;
+}
+
+main{
+    margin-top: 40px;
+    background-color:#A6B1E1 ;
+    padding-top:120px;
+    display:flex;
+    flex-direction:column;
+}
+main button {
+    background-color: #DCD6F7;
+    border-radius: solid #424847;
+    text-align:center;
+    border-radius:8px;
+    cursor:pointer;
+    box-shadow:none;
+    width:auto;
+    align-self:center;
+    padding:12px 18px 12px 18px;
+    margin-bottom:50px;
+}
+main a,main a:hover,main a:active,main a:focus,main a:visited{
+    text-decoration:none;
+    color: #424874;
+  
+}
+main section div a:hover{
+    border-radius:10px;
+    box-shadow:
+        -5px 5px 10px,
+        5px -5px 10px,
+        5px 5px 10px,
+        -5px -5px 10px;
+}
+ footer a:hover{
+    text-decoration:none;
+}
+main section div a img{
+    border-radius:5px;
+    height:190px;
+    width:auto;
+    overflow:hidden;
+    border-top: #424874;
+}
+footer{
+    margin-top: 35px;
+    background-color: #424874;
+    height:85vh;
+    display:flex;
+    flex-direction:row;        
+    align-items:center;
+    justify-content:space-evenly;
+}
+footer div a{
+    background-color:#DCD6F7;
+    border-radius:50%;
+    height:150px;
+    width:150px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    white-space:pre-line;
+    overflow:hidden;
+}
+footer div a:hover{
+    border-radius:50% solid #9BA3EB;
+    box-shadow:
+        -5px 5px 10px,
+        5px -5px 10px,
+        5px 5px 10px,
+        -5px -5px 10px;
+}
+footer div a img{
+    border-radius:50%;
+}
+footer div p{
+    text-align:center;
+    color: #A6B1E1;
+    margin: 25px;
+}
+@media (max-width:800px){
+    nav{
+    background: color #DCD6F7;;
+    height:50px;
+    width:0%;
+    position:fixed;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    z-index:1;
+
+}
+    main section{
+        margin:20px 10% 20px 10%;
+        display:grid;
+        grid-template:repeat(6,1fr)/1fr;
+        justify-items:center;
+    }
+    footer{
+        background-color:#242F9B;
+        height:100vh;
+        display:flex;
+        align-items:center;
+        justify-content:space-evenly;
+    }
+}
+
