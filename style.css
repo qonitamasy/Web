@@ -5,7 +5,7 @@
     color: #242F9B;
 }
 header{
-    background-image: url(kucing\putih.jpg);
+    background-image: url(kucing\ putih.jpg);
     height: 100vh;
     background-size: cover;
     background-position:center ;
